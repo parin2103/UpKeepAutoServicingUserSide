@@ -19,7 +19,7 @@
 16. Video And Faq's
 17. News Section
 18. Team Section
-19. Testimonial Section / Two 
+19. Testimonial Section / Two
 20. Testimonial And BLog
 21. Blog Detail
 22. Styled Pagination
@@ -60,14 +60,14 @@
 @import url('jquery-ui.css');
 @import url('magnific-popup.css');
 
-/*** 
+/***
 
 ====================================================================
 	Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -75,7 +75,7 @@
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -123,7 +123,7 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8em;	
+	line-height:1.8em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	margin: 0;
@@ -151,7 +151,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 .pull-left{
@@ -357,29 +357,29 @@ ul,li{
 }
 
 .theme_color{
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
-	background-color:#ffffff; 
-	background-position:center center; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
+	background-color:#ffffff;
+	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:200px;
 	background-image:url(../images/icons/preloader.svg);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -406,7 +406,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -414,7 +414,7 @@ img{
 	background:#fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -523,7 +523,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .social-icon-one li a span{
@@ -684,12 +684,12 @@ img{
 }
 
 .main-menu{
-	position:static;	
+	position:static;
 	float:left;
 }
 
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
 }
 
 .main-menu .navigation{
@@ -804,7 +804,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -814,7 +814,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > a{
@@ -892,7 +892,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li  > ul > li > a{
@@ -924,7 +924,7 @@ img{
 	transform:scaleY(1);
 	visibility:visible;
 	opacity:1;
-	top:100%;	
+	top:100%;
 }
 
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
@@ -938,7 +938,7 @@ img{
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -989,18 +989,18 @@ img{
 }
 
 .main-header .search-box-btn:hover{
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 .header-style-two.main-header .search-box-btn:hover{
-	color:#ffffff !important;	
+	color:#ffffff !important;
 }
 .main-header  .dropdown-menu{
 	top:38px;
 	right: 0;
 	border-top:3px solid #fb4848;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	-webkit-border-radius:0px;
 	-moz-border-radius:0px;
 	-ms-border-radius:0px;
@@ -1015,12 +1015,12 @@ img{
 }
 
 .main-header .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .search-panel input[type="text"],
@@ -1034,7 +1034,7 @@ img{
 	height:40px;
 	color:#000000;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -1044,7 +1044,7 @@ img{
 
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus{
-	border-color:#fb4848;	
+	border-color:#fb4848;
 }
 
 .main-header .search-panel .search-btn{
@@ -1066,7 +1066,7 @@ img{
 }
 
 .main-header .search-panel .search-btn:hover{
-	color:#fb4848;	
+	color:#fb4848;
 
 }
 
@@ -1214,7 +1214,7 @@ img{
 }
 
 .header-style-two .search-box-btn:hover{
-	color: #36404b; 	
+	color: #36404b;
 }
 
 .header-style-two .header-upper{
@@ -1227,7 +1227,7 @@ img{
 	background-color: #ffffff;
 }
 
-.header-style-two .main-menu:before{	
+.header-style-two .main-menu:before{
 	position: absolute;
 	left: 270px;
 	top: 0;
@@ -1656,7 +1656,7 @@ button:focus{
 	top: 132px !important;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -1748,7 +1748,7 @@ button:focus{
 	border-color: #787878;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Page Title
@@ -1836,7 +1836,7 @@ button:focus{
 }
 
 .page-title .bread-crumb li a:hover{
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 /************************ Mega Menu ***************************/
@@ -1848,7 +1848,7 @@ button:focus{
 .header-style-two .main-menu .navigation > li.has-mega-menu > a:after,
 .main-menu .navigation > li.has-mega-menu:before,
 .main-menu .navigation > li.has-mega-menu:after{
-	display:none;	
+	display:none;
 }
 
 .main-menu .navigation > li > .mega-menu{
@@ -1958,7 +1958,7 @@ button:focus{
 	background:#1c63b8;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider One
@@ -1973,7 +1973,7 @@ button:focus{
 }
 
 .main-slider .tp-caption{
-	z-index:5;	
+	z-index:5;
 }
 
 .main-slider .tp-dottedoverlay{
@@ -2019,13 +2019,13 @@ button:focus{
 
 .main-slider .tp-bannertimer,
 .main-slider .tp-bullets{
-	display:none !important;	
+	display:none !important;
 }
 
-/*** 
+/***
 
 ====================================================================
-					About Us								
+					About Us
 ====================================================================
 
 ***/
@@ -2038,7 +2038,7 @@ button:focus{
 .about-us .content-column{
 	position: relative;
 	margin-bottom: 40px;
-}	
+}
 
 .about-us .content-column h2{
 	position: relative;
@@ -2062,7 +2062,7 @@ button:focus{
 
 .about-us .content-column .primary-text{
 	position: relative;
-	display: block;	
+	display: block;
 	font-size: 16px;
 	line-height: 30px;
 	color: #fb4848;
@@ -2159,10 +2159,10 @@ button:focus{
 	color: #36404b;
 }
 
-/*** 
+/***
 
 ====================================================================
-			Fun Fact Section								
+			Fun Fact Section
 ====================================================================
 
 ***/
@@ -2254,10 +2254,10 @@ button:focus{
 	border-right: 15px solid transparent;
 }
 
-/*** 
+/***
 
 ====================================================================
-				Fun Fact Two								
+				Fun Fact Two
 ====================================================================
 
 ***/
@@ -2382,10 +2382,10 @@ button:focus{
 	color: rgba(0,0,0,.10);
 }
 
-/*** 
+/***
 
 ====================================================================
-						Feature Section								
+						Feature Section
 ====================================================================
 
 ***/
@@ -2558,7 +2558,7 @@ button:focus{
     line-height: 35px;
     text-align: center;
     font-size: 16px;
-	color: #222222; 
+	color: #222222;
 	display:inline-block;
 	background: #ffffff;
 	border: 1px solid #dddddd;
@@ -2576,7 +2576,7 @@ button:focus{
     line-height: 35px;
     text-align: center;
     font-size: 16px;
-	color: #222222; 
+	color: #222222;
 	background: #ffffff;
 	display:inline-block;
 	border: 1px solid #dddddd;
@@ -2591,12 +2591,12 @@ button:focus{
 	left: -80px;
 }
 
-.features-carousel .owl-prev:hover, 
+.features-carousel .owl-prev:hover,
 .features-carousel .owl-next:hover{
 	color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Services Section
@@ -2673,7 +2673,7 @@ button:focus{
 	font-size: 18px;
 	line-height: 25px;
 	color: #ffffff;
-	font-weight: 500; 	
+	font-weight: 500;
 }
 
 .service-block .caption-box{
@@ -2716,7 +2716,7 @@ button:focus{
 	font-size: 18px;
 	line-height: 25px;
 	color: #ffffff;
-	font-weight: 500; 
+	font-weight: 500;
 }
 
 .service-block .caption-box .title-box h4 a{
@@ -2746,7 +2746,7 @@ button:focus{
 
 .service-block .caption-box p{
 	position: relative;
-	display: block; 
+	display: block;
 	font-size: 14px;
 	line-height: 28px;
 	color: #ffffff;
@@ -2825,10 +2825,10 @@ button:focus{
 	margin-top: 90px;
 }
 
-/*** 
+/***
 
 ====================================================================
-					Services Section Two							
+					Services Section Two
 ====================================================================
 
 ***/
@@ -2917,7 +2917,7 @@ button:focus{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-}	
+}
 
 .service-block-two .read-more:hover{
 	text-decoration: underline;
@@ -2988,10 +2988,10 @@ button:focus{
 	color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
-			Service Detail								
+			Service Detail
 ====================================================================
 
 ***/
@@ -3005,7 +3005,7 @@ button:focus{
 	position: relative;
 }
 
-.service-detail-slider{	
+.service-detail-slider{
 	position: relative;
 	margin-bottom: 40px;
 }
@@ -3017,7 +3017,7 @@ button:focus{
 	height: 120px;
 	width: 100%;
 	margin-top: -60px;
-} 	
+}
 
 .service-detail-slider .owl-prev,
 .service-detail-slider .owl-next{
@@ -3146,11 +3146,11 @@ button:focus{
 .service-detail .video-column{
 	position: relative;
 	margin-bottom: 20px;
-} 
+}
 
 .service-detail .video-column .inner-column{
 	position: relative;
-}	
+}
 
 .service-detail .video-column .image{
 	position: relative;
@@ -3397,7 +3397,7 @@ button:focus{
 	position: relative;
 	display: block;
 	width: 100%;
-} 
+}
 
 .brochure-box .link-box{
 	position: relative;
@@ -3432,10 +3432,10 @@ button:focus{
 	margin-right: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
-				Why Us Section							
+				Why Us Section
 ====================================================================
 
 ***/
@@ -3469,7 +3469,7 @@ button:focus{
 	padding-left: 200px;
 	border:1px solid transparent;
 	cursor: pointer;
-}	
+}
 
 .feature-tabs .tab-btn .icon-box{
 	position: absolute;
@@ -3605,7 +3605,7 @@ button:focus{
 	background-color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Gallery Section
@@ -3817,7 +3817,7 @@ button:focus{
 	margin-top: 50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 					Project Section
@@ -3882,7 +3882,7 @@ button:focus{
 	transform: scale(1);
 }
 
-/*** 
+/***
 
 ====================================================================
 				Project Detail Section
@@ -3933,7 +3933,7 @@ button:focus{
 	padding: 15px 20px;
 	min-width: 370px;
 	width: 100%;
-} 
+}
 
 .project-detail .price-list li:nth-child(odd){
 	background-color: #f5f5f5;
@@ -4117,7 +4117,7 @@ button:focus{
     color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 					Video And Faq's
@@ -4133,7 +4133,7 @@ button:focus{
 .video-and-faqs .video-column{
 	position: relative;
 	margin-bottom: 20px;
-} 
+}
 
 .video-and-faqs .video-column .inner-column{
 	position: relative;
@@ -4303,20 +4303,20 @@ button:focus{
 
 .accordion-box .block .acc-content{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
 	position:relative;
-	padding: 0 20px 10px; 
+	padding: 0 20px 10px;
 	min-height: 115px;
 	padding-left: 45px;
 	border-bottom: 1px solid #eeeeee;
-}	
+}
 
 .accordion-box .block .content p{
 	position: relative;
@@ -4325,7 +4325,7 @@ button:focus{
 	color: #666666;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Subscribe Section
@@ -4379,7 +4379,7 @@ button:focus{
 	color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 				News Section
@@ -4505,7 +4505,7 @@ button:focus{
 	position: absolute;
 	top: 50%;
 	width: 330px;
-	right: 0; 
+	right: 0;
 	background-color: #ffffff;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -4615,7 +4615,7 @@ button:focus{
     z-index: 99;
 }
 
-.news-carousel .owl-prev, 
+.news-carousel .owl-prev,
 .news-carousel .owl-next {
     position: absolute;
     height: 35px;
@@ -4624,7 +4624,7 @@ button:focus{
     line-height: 35px;
     text-align: center;
     font-size: 16px;
-	color: #222222; 
+	color: #222222;
 	background: #ffffff;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
@@ -4637,13 +4637,13 @@ button:focus{
 	left: -80px;
 }
 
-.news-carousel .owl-prev:hover, 
+.news-carousel .owl-prev:hover,
 .news-carousel .owl-next:hover{
 	background-color: #fb4848;
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Team Section
@@ -4746,7 +4746,7 @@ button:focus{
 	border-left: 6px solid #fb4848;
 	border-right: 6px solid #fb4848;
 	background-color: #222222;
-} 
+}
 
 .team-block .info-box .inner-box{
 	position: relative;
@@ -4845,7 +4845,7 @@ button:focus{
 	right: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Testimonial Section
@@ -5024,7 +5024,7 @@ button:focus{
     width: 100%;
 }
 
-.testimonial-carousel .owl-prev, 
+.testimonial-carousel .owl-prev,
 .testimonial-carousel .owl-next {
     position: relative;
     display: inline-block;
@@ -5034,7 +5034,7 @@ button:focus{
     line-height: 35px;
     text-align: center;
     font-size: 16px;
-	color: #222222; 
+	color: #222222;
 	background: #ffffff;
 	border: 1px solid #222222;
 	-webkit-transition:all 300ms ease;
@@ -5044,14 +5044,14 @@ button:focus{
     transition: all 300ms ease;
 }
 
-.testimonial-carousel .owl-prev:hover, 
+.testimonial-carousel .owl-prev:hover,
 .testimonial-carousel .owl-next:hover{
 	background-color: #fb4848;
 	border-color: #fb4848;
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Testimonial Section Two
@@ -5216,7 +5216,7 @@ button:focus{
 	margin-left: -4px;
 }
 
-.testimonial-carousel-two .owl-prev, 
+.testimonial-carousel-two .owl-prev,
 .testimonial-carousel-two .owl-next {
     position: absolute;
     height: 30px;
@@ -5225,7 +5225,7 @@ button:focus{
     line-height: 30px;
     text-align: center;
     font-size: 24px;
-	color: #36404b; 
+	color: #36404b;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -5238,7 +5238,7 @@ button:focus{
 	left: auto;
 }
 
-.testimonial-carousel-two .owl-prev:hover, 
+.testimonial-carousel-two .owl-prev:hover,
 .testimonial-carousel-two .owl-next:hover{
 	color: #fb4848;
 }
@@ -5260,7 +5260,7 @@ button:focus{
     bottom: -60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Testimonial And BLog
@@ -5618,7 +5618,7 @@ button:focus{
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 70px; 
+	width: 70px;
 	z-index: 99;
 	text-align: center;
 }
@@ -5681,7 +5681,7 @@ button:focus{
 	margin-top: 100px;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Blog Detail
@@ -5835,7 +5835,7 @@ button:focus{
 	margin-left: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Styled Pagination
@@ -5853,7 +5853,7 @@ button:focus{
 }
 
 .styled-pagination li{
-	position:relative;	
+	position:relative;
 	display: inline-block;
 	margin-right: 15px;
 }
@@ -5880,7 +5880,7 @@ button:focus{
 
 .styled-pagination li a:hover,
 .styled-pagination li a.active{
-	color:#fb4848;	
+	color:#fb4848;
 	border:2px solid #fb4848;
 }
 
@@ -5888,7 +5888,7 @@ button:focus{
 .styled-pagination li a.prev{
 	background: #222222;
 	color: #ffffff;
-	border:2px solid #222222;	
+	border:2px solid #222222;
 }
 
 .styled-pagination li a.next:hover,
@@ -5896,7 +5896,7 @@ button:focus{
 	background: #fb4848;
 	color: #ffffff;
 	border:2px solid #fb4848;
-}	
+}
 
 
 /***
@@ -6073,7 +6073,7 @@ button:focus{
 	background-color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Pricing Section
@@ -6220,7 +6220,7 @@ button:focus{
 	padding: 17px 50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Appointment Form Section
@@ -6250,7 +6250,7 @@ button:focus{
 }
 
 .appointment-form{
-	position: relative;	
+	position: relative;
 }
 
 .appointment-form .form-group{
@@ -6350,7 +6350,7 @@ button:focus{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-menu .ui-menu-item-wrapper{
@@ -6382,7 +6382,7 @@ button:focus{
 	height: auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Appointment Page Style
@@ -6470,7 +6470,7 @@ button:focus{
 
 .service-form  .ui-button .ui-icon:before{
 	font-family: 'Font Awesome 5 Free';
-    font-weight: 900; 
+    font-weight: 900;
 	content: "\f107";
 	position:absolute;
 	color:#333333;
@@ -6642,7 +6642,7 @@ button:focus{
 
 .check-box input[type="checkbox"]:checked + label:after {
 	max-width: 20px;
-	opacity: 1;	
+	opacity: 1;
 }
 
 .appointment-page .contact-form {
@@ -6671,7 +6671,7 @@ button:focus{
 	font-weight: 600;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Contact Section
@@ -6691,7 +6691,7 @@ button:focus{
 
 .contact-form .form-group{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .contact-form .form-group input[type="text"],
@@ -6850,7 +6850,7 @@ button:focus{
 	border-color: #fb4848;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Map Section
@@ -6881,7 +6881,7 @@ button:focus{
 	height:400px;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Contact Info Section
@@ -6891,7 +6891,7 @@ button:focus{
 
 .contact-info-section{
 	position: relative;
-	padding: 65px 0 15px; 
+	padding: 65px 0 15px;
 	background-color: #fb4848;
 }
 
@@ -6937,7 +6937,7 @@ button:focus{
 	line-height: 30px;
 	color: #ffffff;
 	font-weight: 400;
-}	
+}
 
 .contact-info-block p a{
 	color: #ffffff;
@@ -6953,7 +6953,7 @@ button:focus{
 	border-color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Clients Section
@@ -7114,7 +7114,7 @@ button:focus{
 	position:relative;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size: cover;			
+	background-size: cover;
 	color:#ffffff;
 }
 
@@ -7144,11 +7144,11 @@ button:focus{
 
 .main-footer .footer-widget{
 	position:relative;
-	margin-bottom:30px;		
+	margin-bottom:30px;
 }
 
 .main-footer .footer-logo{
-	position:relative;	
+	position:relative;
 	margin-bottom: 25px;
 }
 
@@ -7161,7 +7161,7 @@ button:focus{
 	position: relative;
 	font-size:18px;
 	font-weight:500;
-	color:#ffffff;	
+	color:#ffffff;
 	text-transform:capitalize;
 	margin-bottom: 35px;
 	padding-bottom: 15px;
@@ -7215,7 +7215,7 @@ button:focus{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-}	
+}
 
 .main-footer .about-widget .social-icon li a:hover{
 	color: #fb4848;
@@ -7250,7 +7250,7 @@ button:focus{
 	top: 0;
 	height: 100%;
 	width: 100%;
-  	content: "\f101"; 
+  	content: "\f101";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 14px;
@@ -7287,7 +7287,7 @@ button:focus{
 
 .main-footer .gallery-widget .image img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .main-footer .gallery-widget .image a{
@@ -7415,7 +7415,7 @@ button:focus{
 
 .sidebar-page-container{
 	position: relative;
-	padding: 120px 0 150px; 
+	padding: 120px 0 150px;
 }
 
 .sidebar-page-container .sidebar-side,
@@ -7456,7 +7456,7 @@ button:focus{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -7480,7 +7480,7 @@ button:focus{
 }
 
 .sidebar .search-box .form-group input:focus{
-	border-color:#fb4848;	
+	border-color:#fb4848;
 }
 
 .sidebar .search-box .form-group button{
@@ -7574,7 +7574,7 @@ button:focus{
 .latest-news .post-thumb{
 	position: absolute;
 	left: 0;
-	top: 0;	
+	top: 0;
 	height: 70px;
 	width: 85px;
 	margin-bottom: 20px;
@@ -7636,7 +7636,7 @@ button:focus{
 	float: left;
 	margin-bottom: 10px;
 	margin-right: 10px;
-} 
+}
 
 .tag-list li a{
 	position: relative;
@@ -7660,7 +7660,7 @@ button:focus{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -7741,7 +7741,7 @@ button:focus{
 
 .sidebar-page-container .comments-area .comment-info h4{
 	color:#36404b;
-	line-height:28px;	
+	line-height:28px;
 	font-size:14px;
 	font-weight:500;
 	font-family: "Rubik", sans-serif;
@@ -7766,7 +7766,7 @@ button:focus{
 	margin-bottom:5px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -7828,7 +7828,7 @@ button:focus{
 	line-height: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Error Page
@@ -7886,7 +7886,7 @@ button:focus{
 	margin: 0 15px 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Shop Page Section
@@ -7929,7 +7929,7 @@ button:focus{
 	position:relative;
 	top:0px;
 	text-indent:0px;
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 .sort-by .ui-button .ui-icon:before{
@@ -7974,7 +7974,7 @@ button:focus{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	text-align: center;	
+	text-align: center;
 	background: rgba(255,255,255,.80);
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -8054,7 +8054,7 @@ button:focus{
 
 .shop-item .lower-content{
 	position: relative;
-	padding: 30px 0px 0;	
+	padding: 30px 0px 0;
 	text-align: center;
 }
 
@@ -8076,11 +8076,11 @@ button:focus{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-} 
+}
 
 .shop-item .lower-content h3 a:hover{
 	color: #fb4848;
-}	
+}
 
 .shop-item .lower-content .price{
 	position: relative;
@@ -8249,7 +8249,7 @@ button:focus{
 .shop-comment-form input:focus,
 .shop-comment-form select:focus,
 .shop-comment-form textarea:focus{
-	border-color:#f06529;	
+	border-color:#f06529;
 }
 
 /*Sidebar Range slider */
@@ -8300,13 +8300,13 @@ button:focus{
 	height:3px;
 	border:none;
 	margin-bottom:45px;
-	background:#cccccc;	
+	background:#cccccc;
 }
 
 .sidebar-widget .range-slider-one .ui-slider .ui-slider-range{
 	top:0px;
 	height:4px;
-	background:#222222;	
+	background:#222222;
 }
 
 .sidebar-widget .range-slider-one .ui-state-default,
@@ -8316,7 +8316,7 @@ button:focus{
 	height:15px;
 	z-index: 99;
 	background:#fb4848;
-	cursor:pointer;	
+	cursor:pointer;
 	border:0;
 }
 
@@ -8348,7 +8348,7 @@ button:focus{
 
 .sidebar .related-posts .post .post-thumb img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .sidebar .related-posts .post h4{
@@ -8370,7 +8370,7 @@ button:focus{
 }
 
 .sidebar .related-posts .post a:hover{
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 .sidebar .related-posts .rating{
@@ -8392,7 +8392,7 @@ button:focus{
 	font-weight:400;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Shop Details
@@ -8402,7 +8402,7 @@ button:focus{
 
 .shop-single{
 	position:relative;
-	padding: 120px 0 150px; 
+	padding: 120px 0 150px;
 }
 
 .product-details .basic-details{
@@ -8426,12 +8426,12 @@ button:focus{
 .product-details .image-column .image-box img{
 	position:relative;
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .product-details .basic-details .details-header{
 	position:relative;
-	margin-bottom:35px;	
+	margin-bottom:35px;
 	margin-top: 15px;
 }
 
@@ -8444,7 +8444,7 @@ button:focus{
 }
 
 .product-details .basic-details .details-header h4 a{
-	color:#36404b;	
+	color:#36404b;
 }
 
 .product-details .basic-details .item-price{
@@ -8505,7 +8505,7 @@ button:focus{
 	width: 100px;
 	padding:10px 15px !important;
 	height:50px !important;
-	box-shadow:none !important;	
+	box-shadow:none !important;
 	border-right:1px solid #777777;
 	text-align: center;
 	font-size: 20px;
@@ -8514,7 +8514,7 @@ button:focus{
 
 .product-details .basic-details .bootstrap-touchspin .input-group-btn-vertical > .btn,
 .cart-section .bootstrap-touchspin .input-group-btn-vertical > .btn{
-	background:none;	
+	background:none;
 	border: 0;
 	margin-right: 10px;
 	color: #777777;
@@ -8535,7 +8535,7 @@ button:focus{
     width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Product Tabs Style
@@ -8586,7 +8586,7 @@ button:focus{
 }
 
 .product-info-tabs .prod-tabs .tabs-container .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .product-info-tabs .prod-tabs .tabs-container .tab p,
@@ -8595,7 +8595,7 @@ button:focus{
 .product-info-tabs .prod-tabs .tabs-container .tab h4,
 .product-info-tabs .prod-tabs .tabs-container .tab h5,
 .product-info-tabs .prod-tabs .tabs-container .tab h6{
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .product-info-tabs .prod-tabs .tabs-container .tab h3{
@@ -8628,7 +8628,7 @@ button:focus{
 }
 
 .product-info-tabs .prod-tabs .reviews-container{
-	position:relative;	
+	position:relative;
 	padding-left: 30px;
 }
 
@@ -8669,7 +8669,7 @@ button:focus{
 	padding:15px;
 	padding-left: 65px;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .product-info-tabs .prod-tabs .reviews-container .rating{
@@ -8716,7 +8716,7 @@ button:focus{
 
 .product-info-tabs .prod-tabs .add-review .rating{
 	position:relative;
-	padding-top:8px;	
+	padding-top:8px;
 }
 
 .product-info-tabs .prod-tabs .add-review .rating .rate-box{
@@ -8724,13 +8724,13 @@ button:focus{
 	display:inline-block;
 	margin-right:10px;
 	font-size:14px;
-	color:#555555;	
+	color:#555555;
 }
 
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:hover,
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:focus,
 .product-info-tabs .prod-tabs .add-review .rating .rate-box:active{
-	color:#fb4848;	
+	color:#fb4848;
 }
 
 .product-info-tabs .prod-tabs .add-review label{
@@ -8739,16 +8739,16 @@ button:focus{
 	font-size:14px;
 	margin-bottom:5px;
 	font-weight:400;
-	color:#303030;	
+	color:#303030;
 }
 
 .product-info-tabs .prod-tabs .add-review h3{
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .product-info-tabs .prod-tabs .add-review .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .product-info-tabs .prod-tabs .add-review .form-group input[type="text"],
@@ -8809,7 +8809,7 @@ button:focus{
 
 .checkout-page .default-links{
 	position:relative;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 }
 
 .checkout-page .default-links li{
@@ -8842,11 +8842,11 @@ button:focus{
 
 .checkout-page .default-links li a:hover{
 	color: #ffffff;
-}	
+}
 
 .checkout-page .sec-title{
 	margin-bottom: 20px;
-} 
+}
 
 .checkout-form{
 	position:relative;
@@ -8866,7 +8866,7 @@ button:focus{
 	display:block;
 	line-height:24px;
 	text-transform:capitalize;
-	color:#222222;	
+	color:#222222;
 	font-size:15px;
 	font-weight:400;
 	margin-bottom:10px;
@@ -8928,7 +8928,7 @@ button:focus{
 
 .checkout-form textarea{
 	resize:none;
-	height:60px !important;	
+	height:60px !important;
 	padding-left: 30px;
 }
 
@@ -8942,7 +8942,7 @@ button:focus{
 	line-height:24px;
 	font-size:14px;
 	font-weight:normal;
-	padding-top:5px;	
+	padding-top:5px;
 }
 
 .checkout-page .check-box label{
@@ -9110,16 +9110,16 @@ button:focus{
 .payment-options{
 	position:relative;
 	margin-top:20px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .payment-box .payment-options li{
 	position:relative;
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .payment-box .payment-options li .radio-option{
-	position:relative;		
+	position:relative;
 }
 
 .payment-box .payment-options li .radio-option label{
@@ -9141,7 +9141,7 @@ button:focus{
 .payment-box .payment-options li .radio-option input[type="radio"]{
 	position:absolute;
 	left:0px;
-	top:3px;	
+	top:3px;
 }
 
 .payment-box .payment-options li .radio-option label .small-text{
@@ -9176,7 +9176,7 @@ button:focus{
 	position:relative;
 	display:block;
 	max-width:100%;
-	padding-left:30px;	
+	padding-left:30px;
 	margin-top:20px;
 }
 
@@ -9201,7 +9201,7 @@ button:focus{
 	font-weight: 400;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Shopping Cart Section
@@ -9215,11 +9215,11 @@ button:focus{
 }
 
 .cart-outer{
-	position:relative;	
+	position:relative;
 }
 
 .checkout-page .cart-outer{
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .cart-outer .table-outer{
@@ -9231,7 +9231,7 @@ button:focus{
 
 .cart-outer .cart-table{
 	width:100%;
-	min-width:900px;	
+	min-width:900px;
 }
 
 .cart-table .cart-header{
@@ -9257,7 +9257,7 @@ button:focus{
 }
 
 .cart-table thead tr th .fa{
-	font-size:18px;	
+	font-size:18px;
 }
 
 .cart-table tbody tr td{
@@ -9271,7 +9271,7 @@ button:focus{
 }
 
 .cart-table tbody tr .qty .quantity-spinner{
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .cart-table tbody tr .prod-column .column-box{
@@ -9332,7 +9332,7 @@ button:focus{
 }
 
 .cart-table tbody tr{
-	border-bottom:1px solid #cccccc;	
+	border-bottom:1px solid #cccccc;
 }
 
 .cart-table tbody tr td{
@@ -9367,7 +9367,7 @@ button:focus{
 
 .cart-table tbody .available-info{
 	position:relative;
-	padding-left:50px;	
+	padding-left:50px;
 }
 
 .cart-table tbody .available-info .icon{
@@ -9396,7 +9396,7 @@ button:focus{
 .cart-section .apply-coupon .form-group{
 	position:relative;
 	float:left;
-	margin-right:30px;	
+	margin-right:30px;
 }
 
 .cart-section .apply-coupon .form-group input[type="text"]{
@@ -9426,7 +9426,7 @@ button:focus{
 .cart-section .totals-table li{
 	line-height:24px;
 	padding:18px 30px;
-	border-bottom:1px solid #cccccc;	
+	border-bottom:1px solid #cccccc;
 }
 
 .cart-section .totals-table li:first-child{
@@ -9544,7 +9544,7 @@ button:focus{
 	margin-top: 5px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Login Section
@@ -9652,10 +9652,10 @@ button:focus{
 }
 
 .login-form .psw:hover{
-	text-decoration:underline;	
+	text-decoration:underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 			coming Soon
@@ -9850,7 +9850,7 @@ button:focus{
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error{
-	border-color:#ff0000 !important;	
+	border-color:#ff0000 !important;
 }
 
 .contact-form label.error{
@@ -9861,7 +9861,7 @@ button:focus{
 	text-transform:uppercase;
 	font-size:11px;
 	color:#ff0000;
-	font-weight:500;	
+	font-weight:500;
 }
 
 .header-style-three .search-box-btn, .header-style-four .search-box-btn {
@@ -9869,7 +9869,7 @@ button:focus{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Faq Section
@@ -9883,7 +9883,7 @@ button:focus{
 }
 
 .faq-section .prod-tabs{
-	position:relative;	
+	position:relative;
 	padding:0px 70px;
 }
 
@@ -9965,12 +9965,12 @@ button:focus{
 }
 
 .faq-section .prod-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Team Single Section
@@ -10056,7 +10056,7 @@ button:focus{
 	background-color:#1c63b8;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Progress Levels Section
@@ -10070,7 +10070,7 @@ button:focus{
 }
 
 .normal-section .column .progress-levels{
-	padding-left:15px;	
+	padding-left:15px;
 }
 
 .progress-levels .progress-box{
@@ -10079,11 +10079,11 @@ button:focus{
 	margin-bottom:20px;
 	padding-right: 160px;
 	padding-top: 4px;
-    padding-bottom: 4px;	
+    padding-bottom: 4px;
 }
 
 .progress-levels .progress-box:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .progress-levels .progress-box .box-title{
@@ -10098,7 +10098,7 @@ button:focus{
 
 .progress-levels .progress-box .bar{
 	 position:relative;
-	 height:12px;	
+	 height:12px;
 }
 
 .progress-levels .progress-box .bar .bar-innner{
@@ -10127,11 +10127,11 @@ button:focus{
 }
 
 .progress-levels .progress-box.animated .bar .bar-fill{
-	left:0px;	
+	left:0px;
 }
 
 .progress-levels .progress-box.animated .percent{
-	opacity:1;	
+	opacity:1;
 }
 
 .team-single-section .team-detail .image-column{
@@ -10163,7 +10163,7 @@ button:focus{
 	position:relative;
 	display:inline-block;
 	margin-right: 18px;
-}	
+}
 .team-detail .social-icon-three li a{
 	position: relative;
     font-size: 18px;
@@ -10173,12 +10173,12 @@ button:focus{
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
-    transition: all 300ms ease;	
+    transition: all 300ms ease;
 }
 
 /* New Home Page */
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -10221,7 +10221,7 @@ button:focus{
 	top:50px;
 	width:100%;
 	padding:0px 0px;
-	text-align:center;	
+	text-align:center;
 }
 
 .main-header-bar .social-links{
@@ -10230,7 +10230,7 @@ button:focus{
 	bottom:30px;
 	width:100%;
 	padding:0px 20px;
-	text-align:center;	
+	text-align:center;
 }
 
 .main-header-bar .social-links:before{
@@ -10247,7 +10247,7 @@ button:focus{
 	position:relative;
 	display:block;
 	margin-top:10px;
-	line-height:30px;	
+	line-height:30px;
 }
 
 .main-header-bar .social-links li a{
@@ -10269,7 +10269,7 @@ button:focus{
 
 .main-header-bar .social-links li a span{
 	position:relative;
-	z-index:1;	
+	z-index:1;
 }
 
 .main-header-bar .social-links li a:hover{
@@ -10282,7 +10282,7 @@ button:focus{
 	left:0px;
 	top:50%;
 	margin-top:-30px;
-	width:100%;	
+	width:100%;
 }
 
 .main-header-bar .nav-toggler .toggler-btn{
@@ -10292,7 +10292,7 @@ button:focus{
 	width:34px;
 	height:20px;
 	margin:0 auto;
-	cursor:pointer;	
+	cursor:pointer;
 }
 
 .main-header-bar .nav-toggler .toggler-btn:focus{
@@ -10328,7 +10328,7 @@ button:focus{
 	-moz-transform-origin:right top;
 	-o-transform-origin:right top;
 	transform-origin:right top;
-} 
+}
 
 .main-header-bar .nav-toggler .toggler-btn.active .bar:nth-child(2){
 	opacity:0;
@@ -10348,7 +10348,7 @@ button:focus{
 	-o-transform:rotate(30deg);
 	-moz-transform:rotate(30deg);
 	transform:rotate(30deg);
-} 
+}
 
 .main-header-bar .nav-toggler .toggler-btn .bar:last-child{
 	margin-bottom:0px;
@@ -10377,11 +10377,11 @@ button:focus{
 
 .fixed-header .main-nav-outer,
 .inner-page-header .main-nav-outer{
-	background:rgba(44,44,44,1);	
+	background:rgba(44,44,44,1);
 }
 
 .main-nav-outer.now-visible{
-	left:100%;	
+	left:100%;
 }
 
 .main-nav-outer .main-logo-box{
@@ -10413,7 +10413,7 @@ button:focus{
 	height:100%;
 	display:table;
 	vertical-align:middle;
-	background:url(../images/background/pattern-3.png) repeat;
+	background:url(../assets/images/background/pattern-3.png) repeat;
 }
 
 .main-nav-outer .main-nav-box .main-nav{
@@ -10480,7 +10480,7 @@ button:focus{
 
 .main-nav-outer .main-nav-box .main-nav .navigation > li:hover > a,
 .main-nav-outer .main-nav-box .main-nav .navigation > li.current > a{
-	color:#1c63b8;	
+	color:#1c63b8;
 }
 
 .main-nav-outer .main-nav-box .main-nav .navigation > li > ul{
@@ -10500,7 +10500,7 @@ button:focus{
 
 .main-nav-outer .main-nav-box .main-nav .navigation > li.open > ul{
 	opacity:1;
-	visibility:visible;	
+	visibility:visible;
 }
 
 .main-nav-outer .main-nav-box .main-nav .navigation > li > ul > li{
@@ -10529,7 +10529,7 @@ button:focus{
 
 .main-nav-outer .main-nav-box .main-nav .navigation > li > ul > li:hover > a,
 .main-nav-outer .main-nav-box .main-nav .navigation > li > ul > li.current > a{
-	color:#1c63b8;	
+	color:#1c63b8;
 }
 
 .main-slider-two{
@@ -10707,7 +10707,7 @@ button:focus{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Main Content Box
@@ -10787,7 +10787,7 @@ button:focus{
 	margin:0px 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Search Popup
@@ -10839,14 +10839,14 @@ button:focus{
 }
 
 .search-popup .close-search:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .search-popup .search-form{
 	position:relative;
 	padding:0px 15px 0px;
 	max-width:1024px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top:200px;
 	transition: all 900ms ease;
     -moz-transition: all 900ms ease;
@@ -10911,7 +10911,7 @@ button:focus{
 	font-size:24px;
 	color:#ffffff;
 	margin-bottom:20px;
-	text-align:center;	
+	text-align:center;
 }
 
 .search-popup .recent-searches{
@@ -10922,7 +10922,7 @@ button:focus{
 
 .search-popup .recent-searches li{
 	display:inline-block;
-	margin:0px 10px 10px 0px;	
+	margin:0px 10px 10px 0px;
 }
 
 .search-popup .recent-searches li a{
@@ -10941,10 +10941,10 @@ button:focus{
 
 .search-popup .recent-searches li a:hover{
 	color:#1c63b8;
-	border-color:#1c63b8;	
+	border-color:#1c63b8;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Services Section
@@ -11039,7 +11039,7 @@ button:focus{
 }
 
 .updated-services-section .services-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .updated-services-section .services-tabs .tabs-content .content-column{
@@ -11087,7 +11087,7 @@ button:focus{
 	background-color:#222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Renovation Section
@@ -11230,7 +11230,7 @@ button:focus{
 	text-transform: capitalize;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fun Fact Section Two
@@ -11320,7 +11320,7 @@ button:focus{
 	background-color:#1b65b9;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Work Section
@@ -11493,15 +11493,15 @@ button:focus{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .updated-work-section .client-thumb-outer .owl-item{
-	z-index:0;	
+	z-index:0;
 }
 
 .updated-work-section .client-thumb-outer .owl-item.active{
-	z-index:10;	
+	z-index:10;
 }
 
 .updated-work-section .client-thumb-outer .thumb-item .thumb-box:before{
@@ -11514,7 +11514,7 @@ button:focus{
 	display:block;
 	z-index:1;
 	background-color:rgba(255,255,255,0.50);
-} 
+}
 
 .updated-work-section .client-thumb-outer .owl-item.active .thumb-box:before{
 	opacity:0;
@@ -11604,7 +11604,7 @@ button:focus{
 	top: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Contact Section
@@ -11706,7 +11706,7 @@ button:focus{
     transform: skewX(16deg);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Testimonial Section
@@ -11873,7 +11873,7 @@ button:focus{
 	font-size:14px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Video Section
@@ -11883,7 +11883,7 @@ button:focus{
 
 .updated-video-section{
 	position:relative;
-	background:#252525 url(../images/background/pattern-5.png) repeat-x;
+	background:#252525 url(../assets/images/background/pattern-5.png) repeat-x;
 }
 
 .updated-video-section .blocks-column{
@@ -12007,7 +12007,7 @@ button:focus{
 	z-index:1;
 	width:100px;
 	height:100%;
-	background:#252525 url(../images/background/pattern-5.png) repeat-x;
+	background:#252525 url(../assets/images/background/pattern-5.png) repeat-x;
 	border-right:10px solid #9f9f9f;
     -ms-transform: skewX(6deg);
     -webkit-transform: skewX(6deg);
@@ -12022,7 +12022,7 @@ button:focus{
 	z-index:1;
 	width:100px;
 	height:100%;
-	background:#252525 url(../images/background/pattern-5.png) repeat-x;
+	background:#252525 url(../assets/images/background/pattern-5.png) repeat-x;
 	border-left:10px solid #9f9f9f;
     -ms-transform: skewX(6deg);
     -webkit-transform: skewX(6deg);
@@ -12145,9 +12145,9 @@ button:focus{
 @keyframes ripple {
     70% {box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);}
     100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
-} 
+}
 
-/*** 
+/***
 
 ====================================================================
 	Updated Price Section
@@ -12349,7 +12349,7 @@ button:focus{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
-} 
+}
 
 .updated-pricing-table .price sub{
 	font-size: 18px;
@@ -12426,7 +12426,7 @@ button:focus{
 	background-color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated Work Section
@@ -12437,7 +12437,7 @@ button:focus{
 .updated-team-section{
 	position:relative;
 	padding:110px 0px 110px;
-	background:#222222 url(../images/background/pattern-4.png) repeat-x;
+	background:#222222 url(../assets/images/background/pattern-4.png) repeat-x;
 }
 
 .updated-team-section .owl-nav{
@@ -12574,7 +12574,7 @@ button:focus{
 	color:#222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated News Section
@@ -12775,7 +12775,7 @@ button:focus{
 	font-family: 'Rubik', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Updated	Clients Section
@@ -12858,7 +12858,7 @@ button:focus{
 	position:relative;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size: cover;			
+	background-size: cover;
 	color:#ffffff;
 }
 
@@ -12884,7 +12884,7 @@ button:focus{
 
 .footer-style-two .footer-widget{
 	position:relative;
-	margin-bottom:30px;		
+	margin-bottom:30px;
 }
 
 .footer-style-two .footer-widget h2{
@@ -12977,7 +12977,7 @@ button:focus{
 
 .footer-style-two .gallery-widget .image img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .footer-style-two .gallery-widget .image a{
@@ -13103,7 +13103,7 @@ button:focus{
 
 .footer-style-two .subscribe-form .form-group input[type="submit"]:hover,
 .footer-style-two .subscribe-form button:hover{
-	
+
 }
 
 .footer-style-two .logo-column{
@@ -13392,7 +13392,7 @@ button:focus{
 
 /* .rtl .main-slider-two .slider-content{
 	margin-right:125px;
-} 
+}
 
 .rtl .main-slider-two .slider-content h2{
 	font-size:40px;
@@ -14040,7 +14040,7 @@ button:focus{
 
 .sidebar-info-contents .content-inner .logo img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .sidebar-info-contents .content-inner .content-box{

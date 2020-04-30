@@ -2,29 +2,47 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HomeComponent } from './home/home.component';
 import { routingArr } from './app.routing';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductDisplayComponent } from './shop/product/productDisplay/product-display/product-display.component';
-import { LoginFormComponent } from './login/login-form/login-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { HeaderDisplayPageComponent } from './Header/header-display-page/header-display-page.component';
+import { FooterDisplayPageComponent } from './Footer/footer-display-page/footer-display-page.component';
+import { LoginDisplayPageComponent } from './login/login-display-page/login-display-page.component';
+import { HomePageComponent } from './home/home-page/home-page.component';
+import { PageNotFoundComponent } from './pageNotFound/page-not-found/page-not-found.component';
+import { ForgotpasswordPageComponent } from './Login/login-display-page/forgotpassword-page/forgotpassword-page.component';
+import { ContactPageComponent } from './contact/contact-page/contact-page.component';
+import { BlogPageComponent } from './News/Blog/blog-page/blog-page.component';
+import { ProductDisplayPageComponent } from './shop/product/product-display-page/product-display-page.component';
+import { CartDisplayPageComponent } from './shop/cart/cart-display-page/cart-display-page.component';
+import { ServicePageComponent } from './services/service-page/service-page.component';
+import { ShopSinglePageComponent } from './shop/shopSingle/shop-single-page/shop-single-page.component';
+import { RouterModule, ROUTES } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
+    HeaderDisplayPageComponent,
+    FooterDisplayPageComponent,
+    LoginDisplayPageComponent,
+    HomePageComponent,
     PageNotFoundComponent,
-    HomeComponent,
-    ProductDisplayComponent,
-    LoginFormComponent
+    ForgotpasswordPageComponent,
+    ContactPageComponent,
+    BlogPageComponent,
+    ProductDisplayPageComponent,
+    CartDisplayPageComponent,
+    ServicePageComponent,
+    ShopSinglePageComponent
   ],
   imports: [
     routingArr,
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
